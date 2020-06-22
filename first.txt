@@ -1,7 +1,7 @@
 a=10
 if(a==10)
 {
-	job("Example"){
+	job("Example2"){
 		description("this is my discription")
 		triggers{
 			scm("* * * * *")
@@ -40,7 +40,7 @@ else
 exit 1
 fi  ''')
         		downstreamParameterized {
-				trigger('Project-2') {
+					trigger('Project-2') {
                 			parameters {
                     				currentBuild()
                 			}
