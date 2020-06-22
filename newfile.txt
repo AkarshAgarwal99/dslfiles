@@ -3,9 +3,6 @@ if(a==10)
 {
 	job("Project-2"){
 		description("this is my discription")
-		triggers{
-			scm("* * * * *")
-			}
 		steps{
           		shell(''' export status=$(curl -s -w "%(http_code}" -o /dev/null 192.168.99.104/index.html)
 if [ "cd /var/www/html | ls | grep .html" -a $status -eq 200 ]
