@@ -1,7 +1,7 @@
 a=10
 if(a==10)
 {
-	job("Example"){
+	job("Project-2"){
 		description("this is my discription")
 		triggers{
 			scm("* * * * *")
