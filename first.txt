@@ -40,9 +40,9 @@ else
 exit 1
 fi  ''')
         		downstreamParameterized {
-					trigger('Project-2') {
-                			parameters {
-                    				currentBuild()
+			            trigger('Project-2') {
+                			   parameters {
+                                             currentBuild()
                 			}
             			}
 			}
